@@ -29,7 +29,7 @@ const About = () => {
 
         <div
           id={"slider"}
-          className="flex snap-x snap-mandatory overflow-x-scroll container-snap scroll-smooth"
+          className="flex snap-x snap-mandatory overflow-x-scroll container-snap scroll-smooth h-full items-center"
         >
           <div className="snap-start flex-shrink-0 w-full">
             <h1 className="text-center sm:text-3xl text-2xl pb-4 sm:pb-12">
