@@ -19,9 +19,9 @@ function Main() {
               navigate through it and don't hesitate to get in touch with me.
             </p>
             <div className="pt-10">
-              <button className="border px-5 py-2 mr-2 hover:bg-white hover:text-black transition duration-300">
+              <a href="#work"><button className="border px-5 py-2 mr-2 hover:bg-white hover:text-black transition duration-300">
                 Contact me
-              </button>
+              </button></a>
               <a href="#about">
                 <button className="border px-5 py-2 hover:bg-white hover:text-black transition duration-300">
                   Find more

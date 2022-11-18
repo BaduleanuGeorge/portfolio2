@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg";
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import About from "../components/About";
+import Work from "../components/Work";
 
 
 function App() {
@@ -14,7 +15,12 @@ function App() {
       <section id="about">
         <About />
       </section>
-      
+      <section id="work">
+        <Work />
+      </section>
+      <div className="w-full h-[60px] bg-black text-gray-300 flex items-center justify-center">
+        <p>© George Baduleanu, 2022.</p>
+      </div>
     </div>
   );
 }

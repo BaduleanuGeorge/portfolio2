@@ -16,7 +16,7 @@ const Navbar = () => {
       initial={{x:-500, scale: 0.5, opacity: 0.5}}
       animate ={{x:0, scale: 1, opacity: 1}}
       transition={{duration: 1}}>
-        <img className="w-[50px] rounded-full" src={Logo} alt="logo" />
+        <a href="#main"><img className="w-[50px] rounded-full" src={Logo} alt="logo" /></a>
       </motion.div>
       <motion.div initial={{x:+500, scale: 0.5, opacity: 0.5}}
       animate ={{x:0, scale: 1, opacity: 1}}

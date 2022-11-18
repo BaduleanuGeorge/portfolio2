@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div className="h-screen w-full bg-gray-200 flex justify-center items-center">
-      <div className="flex items-center h-full sm:w-[1000px] mx-auto bg-white shadow-sm shadow-black px-2">
+      <div className="flex items-center h-full sm:max-w-[1000px] mx-auto bg-white border border-l-black border-r-black px-2">
         <div>
           <MdOutlineArrowBackIosNew
             onClick={sliderLeft}
